@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.chat-storage {
+  width: 225px;
+  background-color: #337878;
+  color: #D3C8A3;
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-chat-btn {
+  background-color: #FFEED6;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Poppins', 'Arial', sans-serif;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.chat-groups {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.chat-group {
+  margin-bottom: 20px;
+}
+
+.chat-item {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.chat-item:hover {
+  background-color: #2761619c;
+}
+
+.chat-item.active {
+  background-color: #276161;
+}
+
+.order-support-link {
+  margin-top: auto;
+  display: block;
+}
+
+.order-support-btn {
+  width: 100%;
+}
